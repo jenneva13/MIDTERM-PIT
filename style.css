@@ -1,0 +1,196 @@
+*{
+    font-family: "Google Sans",arial,sans-serif;
+}
+body{
+    margin: 0;
+}
+nav{
+    background-image: url(src/dash.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.button{
+    display: flex;
+    justify-content: flex-end;
+    text-align: left;
+}
+.button button{
+    margin: 5px;
+    padding: 10px;
+    border-radius: 100px;
+}
+.center{
+    text-align: center;
+    padding: 210px 0 300px 0;
+    color: white;
+    align-items: center;
+}
+.store{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+.store ul{
+    list-style: none;
+
+}
+.store ul li{
+    text-align: center;
+}
+.store img{
+    width: 150px;
+}
+.everything{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+.everything ul{
+    list-style: none;
+}
+.dashpass{
+    background-color: #fef1ee;
+    display: flex;
+    justify-content: center;
+}
+.dashpass ul{
+    list-style: none;
+}
+.grocery {
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+    background-size: 100% 100%;
+    background-image: url(src/grocery_desktop.png);
+}
+
+.grocery ul {
+    padding-top: 10%;
+    list-style: none;
+    text-align: center;
+}
+
+.grocery ul li {
+    color: white; /* Ensure that the text color remains white */
+}
+.sbutton{
+   color: white;
+   border-radius: 100px;
+   font-weight: bold;
+   background-color: red;
+   border-style: none;
+   cursor: pointer;
+   padding: 10px 15px 10px 15px;
+   align-items: center;
+   text-align: center;
+   font-size: 15px;
+}
+.helping{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #fef1ee;
+}
+.helping ul{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+}
+.helping ul li{
+    display: inline-block;
+    padding: 15px;
+    padding-bottom: 30px;
+}
+
+.helping ul li img{
+    width: 500px;
+}
+.gGFAfE {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.top{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+footer{ 
+    width: 100%;
+    background-color: #191919;  
+}
+.popular{
+    margin: 0;    
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.popular ul{
+    list-style: none;
+    padding: 0 0 0 2px;
+    padding-left: 80px;
+  
+}
+.popular > ul > li{
+    padding-top: 5px;
+}
+.container{
+    width: 80%; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+a{
+    text-decoration: none;
+    color: #B4B4B4;
+    font-size: 14px;
+    font-weight: 700;
+}
+.dropd{
+    display: none;
+}
+.dropd ul li{
+    list-style: none;
+    padding: 10px;  
+    font-weight: bold;
+}
+.show{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.neighborhood{
+    height: 250px;
+}
+.get{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.get ul {
+    list-style: none;
+    padding: 0 0 0 2px;
+    padding-left: 80px;
+}
+.get ul li{
+    padding-top: 9px;
+}
+.ubos
+{
+    display: flex;
+    color: #B4B4B4;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 13px;
+    font-weight: 700;
+    align-items: center;
+    cursor: pointer;
+}
